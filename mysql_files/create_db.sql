@@ -118,7 +118,8 @@ CREATE TABLE memory (
   speed VARCHAR(50),
   form_factor VARCHAR(50),
   modules VARCHAR(50),
-  per_gb_price INT,
+  capacity INT;
+  per_gb_price DOUBLE(3,2),
   color VARCHAR(50),
   first_word_latency INT,
   cas_word_latency INT,
@@ -155,7 +156,7 @@ CREATE TABLE storage (
   manufacturer VARCHAR(50) NOT NULL,
   part_no VARCHAR(150) NOT NULL,
   capacity INT,
-  per_gb_price INT,
+  per_gb_price DOUBLE(2, 2),
   type VARCHAR(50),
   cache INT,
   form_factor VARCHAR(50),
