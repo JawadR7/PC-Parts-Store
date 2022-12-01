@@ -25,7 +25,16 @@ CREATE TABLE customer (
   last_name VARCHAR(200),
   middle_initial CHAR(1),
   customer_phone VARCHAR(22),
-  email VARCHAR(350)
+  email VARCHAR(350),
+  item_id INT,
+  item_name VARCHAR(50) NOT NULL,
+  item_price DOUBLE(10,2) NOT NULL,
+  street_number VARCHAR(10),
+  apt_no VARCHAR(10),
+  street_name VARCHAR(200),
+  city VARCHAR(100),
+  country_id INT,
+  method_name VARCHAR(100),
 );
 
 CREATE TABLE customer_address (
