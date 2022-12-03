@@ -25,16 +25,7 @@ CREATE TABLE customer (
   last_name VARCHAR(200),
   middle_initial CHAR(1),
   customer_phone VARCHAR(22),
-  email VARCHAR(350),
-  item_id INT,
-  item_name VARCHAR(50) NOT NULL,
-  item_price DOUBLE(10,2) NOT NULL,
-  street_number VARCHAR(10),
-  apt_no VARCHAR(10),
-  street_name VARCHAR(200),
-  city VARCHAR(100),
-  country_id INT,
-  method_name VARCHAR(100),
+  email VARCHAR(350)
 );
 
 CREATE TABLE customer_address (
@@ -91,8 +82,7 @@ CREATE TABLE cpu (
   cooler_incl BOOLEAN,
   packaging VARCHAR(50),
   lithography INT,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT cpu_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -114,8 +104,7 @@ CREATE TABLE power_supply (
   pcle_connectors INT,
   sata_connectors INT,
   molex_connectors INT,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT pow_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -127,16 +116,15 @@ CREATE TABLE memory (
   speed VARCHAR(50),
   form_factor VARCHAR(50),
   modules VARCHAR(50),
-  capacity INT;
-  per_gb_price DOUBLE(3,2),
+  capacity INT,
+  per_gb_price DOUBLE(3, 2),
   color VARCHAR(50),
   first_word_latency INT,
   cas_word_latency INT,
   voltage INT,
   ecc BOOLEAN,
   heat_spreader BOOLEAN,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT mem_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -154,8 +142,7 @@ CREATE TABLE cpu_cooler (
   socket VARCHAR(50),
   water_cooled BOOLEAN,
   fanless BOOLEAN,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT kul_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -170,8 +157,7 @@ CREATE TABLE storage (
   cache INT,
   form_factor VARCHAR(50),
   nvme BOOLEAN,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT sto_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -192,8 +178,7 @@ CREATE TABLE pc_case (
   exp_slots VARCHAR(50),
   dimensions VARCHAR(50),
   volume VARCHAR(50),
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT cas_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -221,8 +206,7 @@ CREATE TABLE motherboard (
   ecc BOOLEAN,
   wireless_networking VARCHAR(50),
   raid_support BOOLEAN,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT mtb_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -249,8 +233,7 @@ CREATE TABLE video_card (
   external_pow VARCHAR(50),
   hdmi_outputs INT,
   total_outputs INT,
-  FOREIGN KEY (item_id) REFERENCES item (item_id),
-  FOREIGN KEY (item_cat) REFERENCES item (item_cat),
+  CONSTRAINT gpu_fk FOREIGN KEY (item_id, item_cat) REFERENCES item (item_id, item_cat),
   PRIMARY KEY (item_id, item_cat)
 );
 
@@ -280,11 +263,16 @@ CREATE TABLE order_line (
   FOREIGN KEY (item_id) REFERENCES item (item_id)
 );
 
+CREATE TABLE order_status (
+	status_id INT PRIMARY KEY,
+  status_value VARCHAR(50)
+);
+
 CREATE TABLE order_history (
   history_id INT PRIMARY KEY,
   order_id INT,
   status_id INT,
   status_date DATETIME,
-  FOREIGN KEY (order_id) REFERENCES cust_order (order_id),
-  FOREIGN KEY (status_id) REFERENCES order_status (status_id)
+  CONSTRAINT oh_fk_co FOREIGN KEY (order_id) REFERENCES cust_order (order_id),
+  CONSTRAINT oh_fk_st FOREIGN KEY (status_id) REFERENCES order_status (status_id)
 );
