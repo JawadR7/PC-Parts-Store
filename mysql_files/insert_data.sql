@@ -380,84 +380,160 @@ INSERT INTO vendor VALUES
 (19, "anteccomponents", "sjhdJan281Mz", "Antec", "8002226832", "support@antec.com"),
 (20, "wdtechnology", "wDDmznJyd2M", "Western Digital", "8002754932", NULL);
 
-INSERT INTO item(item_id,item_cat,vendor_id,item_name,item_desc,item_price) VALUES
- (9001,'mem',13,'Tampflex 4912','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5406.57)
-,(9002,'gpu',5,'Ronstring 5478','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7465.82)
-,(9003,'cas',5,'Cardify 6943','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9519.35)
-,(9004,'mtb',10,'Gembucket 5319','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3596.71)
-,(9005,'kul',18,'Alpha 7397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',845.62)
-,(9006,'pow',12,'Flowdesk 6323','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5394.4)
-,(9007,'pow',18,'Quo Lux 8397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7711.76)
-,(9008,'mem',3,'Kanlam 6954','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6613.02)
-,(9009,'kul',10,'Zoolab 1287','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6656.15)
-,(9010,'mem',15,'Ronstring 6570','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1135.26)
-,(9011,'mem',6,'Voyatouch 7326','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6658.46)
-,(9012,'kul',15,'Y-Solowarm 8812','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2279.36)
-,(9013,'pow',17,'Biodex 7163','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1424.55)
-,(9014,'kul',6,'Quo Lux 4850','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5510.01)
-,(9015,'sto',7,'Regrant 8485','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',3957.55)
-,(9016,'kul',2,'Zaam-Dox 6031','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5882.36)
-,(9017,'sto',13,'Transcof 1561','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2830.48)
-,(9018,'cas',18,'Treeflex 3954','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5614.16)
-,(9019,'cpu',15,'Bitchip 6614','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9109.73)
-,(9020,'cpu',16,'Cardify 4458','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1824.27)
-,(9021,'mtb',3,'Overhold 6140','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4774.79)
-,(9022,'kul',3,'Zoolab 6909','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3084.03)
-,(9023,'mem',10,'Fintone 5758','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',9541.44)
-,(9024,'gpu',18,'Zaam-Dox 8533','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6311.17)
-,(9025,'kul',18,'Zontrax 4260','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4111.6)
-,(9026,'gpu',19,'Y-Solowarm 6573','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',8245.19)
-,(9027,'pow',5,'Fintone 5356','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.35)
-,(9028,'gpu',20,'Lotstring 6129','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9987.03)
-,(9029,'mtb',20,'Tampflex 3147','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7220.33)
-,(9030,'mtb',8,'Voyatouch 7211','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',388.94)
-,(9031,'cpu',16,'Gembucket 8665','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',3529.39)
-,(9032,'kul',18,'Prodder 1439','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5196.88)
-,(9033,'mtb',11,'Temp 8621','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1098.43)
-,(9034,'cas',17,'Y-Solowarm 6329','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1321.62)
-,(9035,'sto',11,'Y-Solowarm 8972','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3386.99)
-,(9036,'gpu',7,'Namfix 1536','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1902.44)
-,(9037,'mem',6,'Home Ing 7588','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7732.53)
-,(9038,'mtb',13,'Tresom 8517','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7645.24)
-,(9039,'sto',8,'Voyatouch 5112','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2031.49)
-,(9040,'cpu',5,'Tampflex 8482','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5964.29)
-,(9041,'cas',15,'Overhold 4279','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9416.87)
-,(9042,'cas',3,'Vagram 4650','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',369.29)
-,(9043,'mtb',18,'Zathin 8744','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.71)
-,(9044,'cas',12,'Voyatouch 1722','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9705.16)
-,(9045,'mem',3,'Hatity 8005','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8361.37)
-,(9046,'cpu',18,'Alpha 7181','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9107.21)
-,(9047,'cpu',7,'Domainer 6052','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',6675.83)
-,(9048,'cas',10,'Namfix 5699','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5432.4)
-,(9049,'sto',12,'Fintone 3193','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2059.24)
-,(9050,'gpu',16,'Latlux 7642','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3942.17)
-,(9051,'sto',8,'Asoka 4027','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8754.43)
-,(9052,'sto',6,'Transcof 5107','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7468.1)
-,(9053,'cas',14,'Zoolab 6989','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7597.91)
-,(9054,'kul',20,'Alphazap 1405','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8815.04)
-,(9055,'pow',20,'Alpha 8331','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7137.04)
-,(9056,'sto',10,'Regrant 4983','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9340.05)
-,(9057,'mem',12,'Toughjoyfax 6657','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',5701.61)
-,(9058,'mem',18,'Prodder 3041','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8208.8)
-,(9059,'pow',19,'Span 8945','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4744.23)
-,(9060,'mtb',4,'Holdlamis 2116','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9713.18)
-,(9061,'cpu',6,'Lotstring 4693','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',822.52)
-,(9062,'mem',13,'Tampflex 2238','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',7096.63)
-,(9063,'mtb',17,'Tin 5756','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',921.53)
-,(9064,'cpu',20,'Pannier 8361','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',6121.08)
-,(9065,'cpu',13,'Duobam 3820','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',9676.99)
-,(9066,'gpu',16,'Zamit 2870','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7604.0)
-,(9067,'sto',2,'It 8939','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2123.22)
-,(9068,'cas',6,'Konklux 4378','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4297.83)
-,(9069,'gpu',5,'Holdlamis 8819','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',1037.36)
-,(9070,'cas',10,'Lotstring 6228','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7287.35)
-,(9071,'mtb',17,'Namfix 2937','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9138.8)
-,(9072,'pow',16,'Sub-Ex 5011','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5883.59)
-,(9073,'cpu',9,'Sonsing 8753','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6080.4)
-,(9074,'gpu',15,'Tres-Zap 6177','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9224.29)
-,(9075,'pow',15,'Home Ing 4225','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2707.29)
-,(9076,'pow',12,'Lotlux 1640','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7865.85)
-,(9077,'kul',18,'Fintone 5922','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',492.87)
-,(9078,'pow',20,'Redhold 1222','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5937.0)
-,(9079,'sto',5,'Greenlam 6318','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3602.55)
-,(9080,'gpu',2,'Prodder 1449','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5061.63);
+INSERT INTO item(item_id, item_cat, vendor_id, item_name, item_desc, item_price)
+VALUES (9001,'mem',13,'Tampflex 4912','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5406.57) ,
+       (9002,'gpu',5,'Ronstring 5478','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7465.82) ,
+       (9003,'cas',5,'Cardify 6943','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9519.35) ,
+       (9004,'mtb',10,'Gembucket 5319','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3596.71) ,
+       (9005,'kul',18,'Alpha 7397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',845.62) ,
+       (9006,'pow',12,'Flowdesk 6323','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5394.4) ,
+       (9007,'pow',18,'Quo Lux 8397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7711.76) ,
+       (9008,'mem',3,'Kanlam 6954','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6613.02) ,
+       (9009,'kul',10,'Zoolab 1287','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6656.15) ,
+       (9010,'mem',15,'Ronstring 6570','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1135.26) ,
+       (9011,'mem',6,'Voyatouch 7326','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6658.46) ,
+       (9012,'kul',15,'Y-Solowarm 8812','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2279.36) ,
+       (9013,'pow',17,'Biodex 7163','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1424.55) ,
+       (9014,'kul',6,'Quo Lux 4850','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5510.01) ,
+       (9015,'sto',7,'Regrant 8485','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',3957.55) ,
+       (9016,'kul',2,'Zaam-Dox 6031','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5882.36) ,
+       (9017,'sto',13,'Transcof 1561','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2830.48) ,
+       (9018,'cas',18,'Treeflex 3954','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5614.16) ,
+       (9019,'cpu',15,'Bitchip 6614','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9109.73) ,
+       (9020,'cpu',16,'Cardify 4458','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1824.27) ,
+       (9021,'mtb',3,'Overhold 6140','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4774.79) ,
+       (9022,'kul',3,'Zoolab 6909','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3084.03) ,
+       (9023,'mem',10,'Fintone 5758','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',9541.44) ,
+       (9024,'gpu',18,'Zaam-Dox 8533','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6311.17) ,
+       (9025,'kul',18,'Zontrax 4260','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4111.6) ,
+       (9026,'gpu',19,'Y-Solowarm 6573','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',8245.19) ,
+       (9027,'pow',5,'Fintone 5356','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.35) ,
+       (9028,'gpu',20,'Lotstring 6129','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9987.03) ,
+       (9029,'mtb',20,'Tampflex 3147','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7220.33) ,
+       (9030,'mtb',8,'Voyatouch 7211','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',388.94) ,
+       (9031,'cpu',16,'Gembucket 8665','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',3529.39) ,
+       (9032,'kul',18,'Prodder 1439','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5196.88) ,
+       (9033,'mtb',11,'Temp 8621','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1098.43) ,
+       (9034,'cas',17,'Y-Solowarm 6329','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1321.62) ,
+       (9035,'sto',11,'Y-Solowarm 8972','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3386.99) ,
+       (9036,'gpu',7,'Namfix 1536','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1902.44) ,
+       (9037,'mem',6,'Home Ing 7588','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7732.53) ,
+       (9038,'mtb',13,'Tresom 8517','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7645.24) ,
+       (9039,'sto',8,'Voyatouch 5112','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2031.49) ,
+       (9040,'cpu',5,'Tampflex 8482','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5964.29) ,
+       (9041,'cas',15,'Overhold 4279','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9416.87) ,
+       (9042,'cas',3,'Vagram 4650','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',369.29) ,
+       (9043,'mtb',18,'Zathin 8744','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.71) ,
+       (9044,'cas',12,'Voyatouch 1722','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9705.16) ,
+       (9045,'mem',3,'Hatity 8005','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8361.37) ,
+       (9046,'cpu',18,'Alpha 7181','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9107.21) ,
+       (9047,'cpu',7,'Domainer 6052','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',6675.83) ,
+       (9048,'cas',10,'Namfix 5699','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5432.4) ,
+       (9049,'sto',12,'Fintone 3193','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2059.24) ,
+       (9050,'gpu',16,'Latlux 7642','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3942.17) ,
+       (9051,'sto',8,'Asoka 4027','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8754.43) ,
+       (9052,'sto',6,'Transcof 5107','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7468.1) ,
+       (9053,'cas',14,'Zoolab 6989','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7597.91) ,
+       (9054,'kul',20,'Alphazap 1405','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8815.04) ,
+       (9055,'pow',20,'Alpha 8331','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7137.04) ,
+       (9056,'sto',10,'Regrant 4983','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9340.05) ,
+       (9057,'mem',12,'Toughjoyfax 6657','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',5701.61) ,
+       (9058,'mem',18,'Prodder 3041','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8208.8) ,
+       (9059,'pow',19,'Span 8945','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4744.23) ,
+       (9060,'mtb',4,'Holdlamis 2116','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9713.18) ,
+       (9061,'cpu',6,'Lotstring 4693','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',822.52) ,
+       (9062,'mem',13,'Tampflex 2238','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',7096.63) ,
+       (9063,'mtb',17,'Tin 5756','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',921.53) ,
+       (9064,'cpu',20,'Pannier 8361','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',6121.08) ,
+       (9065,'cpu',13,'Duobam 3820','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',9676.99) ,
+       (9066,'gpu',16,'Zamit 2870','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7604.0) ,
+       (9067,'sto',2,'It 8939','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2123.22) ,
+       (9068,'cas',6,'Konklux 4378','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4297.83) ,
+       (9069,'gpu',5,'Holdlamis 8819','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',1037.36) ,
+       (9070,'cas',10,'Lotstring 6228','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7287.35) ,
+       (9071,'mtb',17,'Namfix 2937','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9138.8) ,
+       (9072,'pow',16,'Sub-Ex 5011','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5883.59) ,
+       (9073,'cpu',9,'Sonsing 8753','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6080.4) ,
+       (9074,'gpu',15,'Tres-Zap 6177','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9224.29) ,
+       (9075,'pow',15,'Home Ing 4225','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2707.29) ,
+       (9076,'pow',12,'Lotlux 1640','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7865.85) ,
+       (9077,'kul',18,'Fintone 5922','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',492.87) ,
+       (9078,'pow',20,'Redhold 1222','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5937.0) ,
+       (9079,'sto',5,'Greenlam 6318','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3602.55) ,
+       (9080,'gpu',2,'Prodder 1449','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5061.63);
+
+
+INSERT INTO customer_address(customer_id, address_id)
+VALUES (1276391,1) ,
+       (1400928,2) ,
+       (1490182,3) ,
+       (1625347,4) ,
+       (1629800,5) ,
+       (2152630,6) ,
+       (2261283,7) ,
+       (2356753,8) ,
+       (2363645,9) ,
+       (2431827,10) ,
+       (2645142,11) ,
+       (2736483,12) ,
+       (2861562,13) ,
+       (3228389,14) ,
+       (3267162,15) ,
+       (3271252,16) ,
+       (3392625,17) ,
+       (3621827,18) ,
+       (3625152,19) ,
+       (3725184,20) ,
+       (4082327,21) ,
+       (4256123,22) ,
+       (4261829,23) ,
+       (4342118,24) ,
+       (4472289,25) ,
+       (4498822,26) ,
+       (4532741,27) ,
+       (4532742,28) ,
+       (4965820,29) ,
+       (5252007,30) ,
+       (5262718,31) ,
+       (5454211,32) ,
+       (5646283,33) ,
+       (6251827,34) ,
+       (6352817,35) ,
+       (6736253,36) ,
+       (7127356,37) ,
+       (7263641,38) ,
+       (7281928,39) ,
+       (7373646,40) ,
+       (7456233,41) ,
+       (7488920,42) ,
+       (8662832,43) ,
+       (8887263,44) ,
+       (9162534,45) ,
+       (9558271,46) ,
+       (9720581,47) ,
+       (9728374,48) ,
+       (9730189,49) ,
+       (9928174,50);
+
+
+INSERT INTO vendor_address(vendor_id, address_id)
+VALUES (1,20) ,
+       (2,19) ,
+       (3,18) ,
+       (4,17) ,
+       (5,16) ,
+       (6,15) ,
+       (7,14) ,
+       (8,13) ,
+       (9,12) ,
+       (10,11) ,
+       (11,10) ,
+       (12,9) ,
+       (13,8) ,
+       (14,7) ,
+       (15,6) ,
+       (16,5) ,
+       (17,4) ,
+       (18,3) ,
+       (19,2) ,
+       (20,1);
