@@ -537,3 +537,42 @@ VALUES (1,20) ,
        (18,3) ,
        (19,2) ,
        (20,1);
+
+INSERT INTO shipping_method(method_id, method_name, cost)
+VALUES (1,'luctus',472.46) ,
+       (2,'sodales sed tincidunt',704.51) ,
+       (3,'sem praesent',833.02) ,
+       (4,'nunc rhoncus dui',862.56) ,
+       (5,'magna vulputate',219.6) ,
+       (6,'sodales',102.13) ,
+       (7,'urna',921.72) ,
+       (8,'at nibh',465.03) ,
+       (9,'in blandit',758.8) ,
+       (10,'nunc commodo placerat',85.21) ,
+       (11,'luctus nec molestie',165.1) ,
+       (12,'diam',227.64) ,
+       (13,'faucibus',159.19) ,
+       (14,'quam',332.38) ,
+       (15,'arcu',342.81) ,
+       (16,'ipsum',393.42) ,
+       (17,'tincidunt in leo',328.84) ,
+       (18,'lacinia aenean',618.78) ,
+       (19,'nisl',992.65) ,
+       (20,'blandit mi in',619.53);
+
+
+INSERT INTO order_status(status_id, status_value)
+VALUES (1,'Awaiting Payment') ,
+       (2,'Awaiting Fulfillment') ,
+       (3,'Awaiting Shipment') ,
+       (4,'Awaiting Pickup') ,
+       (5,'Partially Shipped') ,
+       (6,'Manual Verification Required') ,
+       (7,'Partially Refunded') ,
+       (8,'Completed') ,
+       (9,'Shipped') ,
+       (10,'Canceled') ,
+       (11,'Declined') ,
+       (12,'Refunded') ,
+       (13,'Disputed') ,
+       (14,'Pending');
