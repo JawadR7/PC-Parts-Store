@@ -254,107 +254,108 @@ INSERT INTO country VALUES
 (251, 'Zambia', 'ZM'),
 (252, 'Zimbabwe', 'ZW');
 
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (1, '5', 54, 'Springview', 'Shitan', 14);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (2, '50984', 73, 'Crescent Oaks', 'Bergvliet', 131);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (3, '6096', 81, 'Utah', 'Cojutepeque', 200);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (4, '76', 62, 'Kropf', 'San Vicente de Bique', 18);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (5, '5265', 196, 'Elgar', 'Połajewo', 94);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (6, '9', 150, 'Harbort', 'Shangzhuang', 204);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (7, '636', 94, 'Westend', 'San Cosme y Damián', 179);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (8, '0457', 195, 'Schmedeman', 'Tiel', 234);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (9, '62464', 78, 'Rutledge', 'Trai Ngau', 121);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (10, '158', 155, 'Kennedy', 'Zhexiao', 115);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (11, '66', 174, 'Reindahl', 'Formosa do Rio Preto', 17);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (12, '97043', 28, 'Fairview', 'Romilly-sur-Seine', 12);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (13, '17', 17, 'Hintze', 'Majagual', 196);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (14, '98', 206, 'Service', 'Rączna', 102);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (15, '09552', 204, 'Anthes', 'Songshu', 208);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (16, '813', 144, 'Springs', 'Titab', 94);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (17, '1137', 151, 'Portage', 'Orlovo', 95);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (18, '17', 106, 'La Follette', 'Tapera', 58);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (19, '37931', 232, 'School', 'Aryiropoúlion', 26);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (20, '6364', 234, 'Dryden', 'Aguada de Pasajeros', 211);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (21, '084', 70, 'Arrowood', 'Yasnyy', 25);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (22, '9', 123, 'Katie', 'Yotala', 147);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (23, '05', 127, 'Londonderry', 'Tomilino', 70);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (24, '55', 36, 'Kim', 'Zyuzino', 85);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (25, '3', 66, 'Lindbergh', 'Dengmingsi', 235);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (26, '3', 22, 'Summer Ridge', 'Bondoufle', 151);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (27, '6', 216, 'Ridgeview', 'Zhucun', 240);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (28, '05', 146, 'Clemons', 'Shizong', 71);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (29, '20', 188, 'Dapin', 'Wentugaole', 56);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (30, '8', 167, 'Rockefeller', 'Salto', 170);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (31, '9', 102, 'Manufacturers', 'Izyum', 12);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (32, '935', 229, 'Namekagon', 'Hallsberg', 189);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (33, '322', 2, 'Beilfuss', 'Winangun', 167);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (34, '61373', 42, 'Mcguire', 'Łeba', 190);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (35, '913', 108, 'Kings', 'Dzüünbulag', 58);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (36, '57', 155, 'Kim', 'Chesma', 194);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (37, '80741', 227, 'Cody', 'Su-dong', 95);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (38, '1', 65, 'Manitowish', 'Mwinilunga', 240);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (39, '1971', 129, 'Kingsford', 'Limit', 188);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (40, '66', 141, 'Ridgeview', 'Casal da Serra', 61);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (41, '1', 111, 'Briar Crest', 'Victoria', 90);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (42, '508', 170, 'Green', 'Rawang', 173);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (43, '248', 195, 'Melby', 'Sísion', 176);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (44, '5', 121, 'Lotheville', 'Drayton Valley', 234);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (45, '6', 213, 'Ridgeway', 'Pila', 12);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (46, '5', 19, 'Huxley', 'Riangbaring', 40);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (47, '20', 18, 'Buell', 'El Copé', 173);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (48, '16', 175, 'Fisk', 'Tapon', 42);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (49, '89', 32, 'Longview', 'Qianwei', 152);
-INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) values (50, '8', 27, 'Oriole', 'Pogranichnyy', 109);
+INSERT INTO address (address_id, street_number, apt_no, street_name, city, country_id) VALUES 
+(1, '5', 54, 'Springview', 'Shitan', 14), 
+(2, '50984', 73, 'Crescent Oaks', 'Bergvliet', 131),
+(3, '6096', 81, 'Utah', 'Cojutepeque', 200),
+(4, '76', 62, 'Kropf', 'San Vicente de Bique', 18),
+(5, '5265', 196, 'Elgar', 'Połajewo', 94),
+(6, '9', 150, 'Harbort', 'Shangzhuang', 204),
+(7, '636', 94, 'Westend', 'San Cosme y Damián', 179),
+(8, '0457', 195, 'Schmedeman', 'Tiel', 234),
+(9, '62464', 78, 'Rutledge', 'Trai Ngau', 121),
+(10, '158', 155, 'Kennedy', 'Zhexiao', 115),
+(11, '66', 174, 'Reindahl', 'Formosa do Rio Preto', 17),
+(12, '97043', 28, 'Fairview', 'Romilly-sur-Seine', 12),
+(13, '17', 17, 'Hintze', 'Majagual', 196),
+(14, '98', 206, 'Service', 'Rączna', 102),
+(15, '09552', 204, 'Anthes', 'Songshu', 208),
+(16, '813', 144, 'Springs', 'Titab', 94),
+(17, '1137', 151, 'Portage', 'Orlovo', 95),
+(18, '17', 106, 'La Follette', 'Tapera', 58),
+(19, '37931', 232, 'School', 'Aryiropoúlion', 26),
+(20, '6364', 234, 'Dryden', 'Aguada de Pasajeros', 211),
+(21, '084', 70, 'Arrowood', 'Yasnyy', 25),
+(22, '9', 123, 'Katie', 'Yotala', 147),
+(23, '05', 127, 'Londonderry', 'Tomilino', 70),
+(24, '55', 36, 'Kim', 'Zyuzino', 85),
+(25, '3', 66, 'Lindbergh', 'Dengmingsi', 235),
+(26, '3', 22, 'Summer Ridge', 'Bondoufle', 151),
+(27, '6', 216, 'Ridgeview', 'Zhucun', 240),
+(28, '05', 146, 'Clemons', 'Shizong', 71),
+(29, '20', 188, 'Dapin', 'Wentugaole', 56),
+(30, '8', 167, 'Rockefeller', 'Salto', 170),
+(31, '9', 102, 'Manufacturers', 'Izyum', 12),
+(32, '935', 229, 'Namekagon', 'Hallsberg', 189),
+(33, '322', 2, 'Beilfuss', 'Winangun', 167),
+(34, '61373', 42, 'Mcguire', 'Łeba', 190),
+(35, '913', 108, 'Kings', 'Dzüünbulag', 58),
+(36, '57', 155, 'Kim', 'Chesma', 194),
+(37, '80741', 227, 'Cody', 'Su-dong', 95),
+(38, '1', 65, 'Manitowish', 'Mwinilunga', 240),
+(39, '1971', 129, 'Kingsford', 'Limit', 188),
+(40, '66', 141, 'Ridgeview', 'Casal da Serra', 61),
+(41, '1', 111, 'Briar Crest', 'Victoria', 90),
+(42, '508', 170, 'Green', 'Rawang', 173),
+(43, '248', 195, 'Melby', 'Sísion', 176),
+(44, '5', 121, 'Lotheville', 'Drayton Valley', 234),
+(45, '6', 213, 'Ridgeway', 'Pila', 12),
+(46, '5', 19, 'Huxley', 'Riangbaring', 40),
+(47, '20', 18, 'Buell', 'El Copé', 173),
+(48, '16', 175, 'Fisk', 'Tapon', 42),
+(49, '89', 32, 'Longview', 'Qianwei', 152),
+(50, '8', 27, 'Oriole', 'Pogranichnyy', 109);
 
 INSERT INTO customer VALUES
-(4532741, "jdoe91", "34jdjd91s", "John", "Doe", "F.", "7189628732", "jdoe24@gmail.com"),
-(9728374, "mikejames23", "mjr0c4a", "Michael", "James", "S.", "2419814263", "mjames111@yahoo.com"),
+(4532741, "jdoe91", "34jdjd91s", "John", "Doe", "F", "7189628732", "jdoe24@gmail.com"),
+(9728374, "mikejames23", "mjr0c4a", "Michael", "James", "S", "2419814263", "mjames111@yahoo.com"),
 (2431827, "ngreen", "ng92iaks", "Naomi", "Green", NULL, "3472918273", "ngreenc3@gmail.com"),
 (8662832, "77asanders", "82yshajfd", "Alex", "Sanders", NULL, "2531349281", "starsanders71@gmail.com"),
-(7456233, "rkaysan2", "6sdg34ds", "Robert", "Kaysan", "L.", "6197328123", "rkaysan2@gmail.com"),
-(2356753, "jjones22", "jsdf1s223", "Joshua", "Jones", "W.", "2437261523", "jjones22@gmail.com"),
+(7456233, "rkaysan2", "6sdg34ds", "Robert", "Kaysan", "L", "6197328123", "rkaysan2@gmail.com"),
+(2356753, "jjones22", "jsdf1s223", "Joshua", "Jones", "W", "2437261523", "jjones22@gmail.com"),
 (1625347, "nathan1", "sDfA2JJ11s", "Nathaniel", "Brown", NULL, "3478210394", "nathaniel29@gmail.com"),
 (1629800, "pcartier23", "wlr1629vA", "Jordan", "Carter", NULL, "2227161629", "jcarter22@gmail.com"),
 (1400928, "tredd1400", "ALLYT3frfr", "Michael", "White", NULL, "9801729823", "mwhite1400@hotmail.com"),
-(5646283, "rbrownMC", "CMnworbr38", "Ronald", "Brown", "M.", "3642518436", "rbrownMC@gmail.com"),
+(5646283, "rbrownMC", "CMnworbr38", "Ronald", "Brown", "M", "3642518436", "rbrownMC@gmail.com"),
 (2261283, "cjames21", "sjamc83AsC", "Cassandra", "James", NULL, "2418378273", "cassie717@aol.com"),
-(6352817, "jthompson63", "7sahSChs2", "Jennifer", "Thompson", "B.", "3472327832", "jethompson53@gmail.com"),
-(4256123, "kcenat3", "ShAA32Xsjd", "Kyle", "Cenat", "J.", "2432121726", "kcenat3@gmail.com"),
+(6352817, "jthompson63", "7sahSChs2", "Jennifer", "Thompson", "B", "3472327832", "jethompson53@gmail.com"),
+(4256123, "kcenat3", "ShAA32Xsjd", "Kyle", "Cenat", "J", "2432121726", "kcenat3@gmail.com"),
 (3271252, "iiris22", "hsj26Ahhx", "Imani", "Iris", NULL, "9802917421", "irissees22@aol.com"),
 (2861562, "cmatthews2871", "nxtdO0r23", "Chris", "Matthews", NULL, "1782639871", "cmatthews71@gmail.com"),
 (3621827, "fnathans72", "AcSS234Abs", "Francis", "Nathans", NULL, "7182416382", "fnathans872@yahoo.com"),
-(9162534, "sthatcher1", "hajkoOuA2s", "Steve", "Thatcher", "J.", "3472518278", "sthatcher1@yahoo.com"),
-(2152630, "susan02", "3JJhnM281a", "Susan", "Linville", "W.", "3012102135", "susanwlinville@aol.com"),
-(9720581, "anelson", "7sa6AAhmc", "Dustin", "Nelson", "A.", "2676573600", "dnels82@gmail.com"),
-(2363645, "lsmith4242", "42Ksja42Jy", "Leroy", "Smith", "C.", "7404349775", "csmith21@yahoo.com"),
+(9162534, "sthatcher1", "hajkoOuA2s", "Steve", "Thatcher", "J", "3472518278", "sthatcher1@yahoo.com"),
+(2152630, "susan02", "3JJhnM281a", "Susan", "Linville", "W", "3012102135", "susanwlinville@aol.com"),
+(9720581, "anelson", "7sa6AAhmc", "Dustin", "Nelson", "A", "2676573600", "dnels82@gmail.com"),
+(2363645, "lsmith4242", "42Ksja42Jy", "Leroy", "Smith", "C", "7404349775", "csmith21@yahoo.com"),
 (3625152, "moore674", "M2jAAsOkj", "Felisha", "Moore", NULL, "8155294163", "moorehead2@gmail.com"),
-(4261829, "george8", "password", "George", "Trent", "J.", "9376040592", "gtrent4@gmail.com"),
-(7281928, "dmoran7", "co8SSveAm", "Donald", "Moran", "M.", "2282475514", "dmoran22@gmail.com"),
-(6251827, "saguayo", "3MMsZ298Cj", "Stephen", "Aguayo", "C.", "7189628732", "saguayo@hotmail.com"),
-(1276391, "ndiaz223", "8jSaaCmHJ3", "Natalie", "Diaz", "D.", "4252620131", "ndiaz84@gmail.com"),
+(4261829, "george8", "password", "George", "Trent", "J", "9376040592", "gtrent4@gmail.com"),
+(7281928, "dmoran7", "co8SSveAm", "Donald", "Moran", "M", "2282475514", "dmoran22@gmail.com"),
+(6251827, "saguayo", "3MMsZ298Cj", "Stephen", "Aguayo", "C", "7189628732", "saguayo@hotmail.com"),
+(1276391, "ndiaz223", "8jSaaCmHJ3", "Natalie", "Diaz", "D", "4252620131", "ndiaz84@gmail.com"),
 (4342118, "mwells21", "WjMMa827Fg", "Melissa", "Wells", NULL, "4435571129", "mwells62352@aol.com"),
 (7127356, "pryor1", "reNfr00a", "William", "Pryor", NULL, "5088925052", "wpryor21@aol.com"),
-(2736483, "dellis489", "298SjkgMM", "Derick", "Ellis", "P.", "8602366242", "dellis82@gmail.com"),
+(2736483, "dellis489", "298SjkgMM", "Derick", "Ellis", "P", "8602366242", "dellis82@gmail.com"),
 (7373646, "fall8211", "pWo00rDy5a", "Frank", "Hall", NULL, "6183150529", "chall800@gmail.com"),
-(5262718, "jbarter231", "jHshfui429", "Jeffrey", "Barter", "I.", "3172012123", "jbarter@gmail.com"),
-(4532742, "tricia10", "riVrIcia22", "Tricia", "Rivera", "E.", "3023825672", "riverat2@gmail.com"),
-(3725184, "mcasady2", "7372mAAszC", "Marcus", "Casady", "A.", "7853080408", "mcasady28@gmail.com"),
-(7263641, "mattyh", "jfuAuf3272", "Matthew", "Houston", "T.", "3396139825", "mhouston41@aol.com"),
-(3267162, "dthomas64", "MdshCC2738A", "Maria", "Thomas", "F.", "7189628732", "jdoe24@gmail.com"),
-(6736253, "jewelgard", "3GamJsk9s1", "Jewel", "Gardner", "M.", "8475381507", "jmgardner521@gmail.com"),
+(5262718, "jbarter231", "jHshfui429", "Jeffrey", "Barter", "I", "3172012123", "jbarter@gmail.com"),
+(4532742, "tricia10", "riVrIcia22", "Tricia", "Rivera", "E", "3023825672", "riverat2@gmail.com"),
+(3725184, "mcasady2", "7372mAAszC", "Marcus", "Casady", "A", "7853080408", "mcasady28@gmail.com"),
+(7263641, "mattyh", "jfuAuf3272", "Matthew", "Houston", "T", "3396139825", "mhouston41@aol.com"),
+(3267162, "dthomas64", "MdshCC2738A", "Maria", "Thomas", "F", "7189628732", "jdoe24@gmail.com"),
+(6736253, "jewelgard", "3GamJsk9s1", "Jewel", "Gardner", "M", "8475381507", "jmgardner521@gmail.com"),
 (2645142, "buenobruno", "84jdMMcnXx", "Bruno", "Lachance", NULL, "3606957685", "blachance@yahoo.com"),
 (9730189, "kapa2", "MMmaA83ghCN", "Liisi", "Kapanen", NULL, "5037633686", "lkapa21@yahoo.com"),
-(1490182, "daumiller73", "DAAmJs837a", "Debra", "Aumiller", "J.", "6077349103", "daumiller@gmail.com"),
-(8887263, "painter83", "OaaAhfbnX", "Caroline", "Painter", "M.", "5804787747", "cpaint@yahoo.com"),
-(4472289, "oscar01", "JJdusMAa92", "Oscar", "Amend", "E.", "9255433456", "oscar97@gmail.com"),
-(4965820, "jdyson83", "8KjaM2paB", "Jose", "Dyson", "M.", "2086510569", "josemdyson@gmail.com"),
+(1490182, "daumiller73", "DAAmJs837a", "Debra", "Aumiller", "J", "6077349103", "daumiller@gmail.com"),
+(8887263, "painter83", "OaaAhfbnX", "Caroline", "Painter", "M", "5804787747", "cpaint@yahoo.com"),
+(4472289, "oscar01", "JJdusMAa92", "Oscar", "Amend", "E", "9255433456", "oscar97@gmail.com"),
+(4965820, "jdyson83", "8KjaM2paB", "Jose", "Dyson", "M", "2086510569", "josemdyson@gmail.com"),
 (3228389, "alvin21", "l0cKKsNa", "Alvin", "White", NULL, "8016376834", "awhite83@yahoo.com"),
-(7488920, "twhite93", "aLwHii8sy", "Alvin", "White", "T.", "8016376834", "alvinwhite@hotmail.com"),
-(9928174, "jhughes83", "HuGmmJl4", "Jessica", "Hughes", "R.", "6507548418", "jhughes82@gmail.com"),
-(5252007, "roakes52", "RmMMaJ372", "Raymond", "Oakes", "J.", "5402632020", "roakes23@gmail.com"),
+(7488920, "twhite93", "aLwHii8sy", "Alvin", "White", "T", "8016376834", "alvinwhite@hotmail.com"),
+(9928174, "jhughes83", "HuGmmJl4", "Jessica", "Hughes", "R", "6507548418", "jhughes82@gmail.com"),
+(5252007, "roakes52", "RmMMaJ372", "Raymond", "Oakes", "J", "5402632020", "roakes23@gmail.com"),
 (3392625, "lmcook28", "c02MMoJhHa", "Teresa", "Cook", NULL, "8307899875", "tcook43@yahoo.com"),
 (4082327, "dgribble733", "pw0RddMaZ", "Dennis", "Gribble", NULL, "4357105690", "dgribble24@yahoo.com"),
 (4498822, "mknowles26", "P009w0RdsZ", "Irene", "Knowles", NULL, "9785430605", "iknowles@gmail.com"),
-(5454211, "jfarelly462", "FjjAm826A", "Jayne", "Farrelly", "C.", "3366962701", "jfarrelly260@gmail.com"),
+(5454211, "jfarelly462", "FjjAm826A", "Jayne", "Farrelly", "C", "3366962701", "jfarrelly260@gmail.com"),
 (9558271, "lfrisby27", "fRiSby37AA", "Lillian", "Frisby", NULL, "3096981640", "lfrisby@gmail.com");
 
 INSERT INTO vendor VALUES
@@ -378,3 +379,85 @@ INSERT INTO vendor VALUES
 (18, "nzxtgaming", "n5JuGGfBaz", "NZXT", "8002289395", "service@nzxt.com"),
 (19, "anteccomponents", "sjhdJan281Mz", "Antec", "8002226832", "support@antec.com"),
 (20, "wdtechnology", "wDDmznJyd2M", "Western Digital", "8002754932", NULL);
+
+INSERT INTO item(item_id,item_cat,vendor_id,item_name,item_desc,item_price) VALUES
+ (9001,'mem',13,'Tampflex 4912','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5406.57)
+,(9002,'gpu',5,'Ronstring 5478','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7465.82)
+,(9003,'cas',5,'Cardify 6943','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9519.35)
+,(9004,'mtb',10,'Gembucket 5319','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3596.71)
+,(9005,'kul',18,'Alpha 7397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',845.62)
+,(9006,'pow',12,'Flowdesk 6323','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5394.4)
+,(9007,'pow',18,'Quo Lux 8397','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7711.76)
+,(9008,'mem',3,'Kanlam 6954','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6613.02)
+,(9009,'kul',10,'Zoolab 1287','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',6656.15)
+,(9010,'mem',15,'Ronstring 6570','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1135.26)
+,(9011,'mem',6,'Voyatouch 7326','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6658.46)
+,(9012,'kul',15,'Y-Solowarm 8812','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2279.36)
+,(9013,'pow',17,'Biodex 7163','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1424.55)
+,(9014,'kul',6,'Quo Lux 4850','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5510.01)
+,(9015,'sto',7,'Regrant 8485','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',3957.55)
+,(9016,'kul',2,'Zaam-Dox 6031','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5882.36)
+,(9017,'sto',13,'Transcof 1561','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',2830.48)
+,(9018,'cas',18,'Treeflex 3954','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5614.16)
+,(9019,'cpu',15,'Bitchip 6614','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9109.73)
+,(9020,'cpu',16,'Cardify 4458','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1824.27)
+,(9021,'mtb',3,'Overhold 6140','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4774.79)
+,(9022,'kul',3,'Zoolab 6909','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',3084.03)
+,(9023,'mem',10,'Fintone 5758','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',9541.44)
+,(9024,'gpu',18,'Zaam-Dox 8533','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6311.17)
+,(9025,'kul',18,'Zontrax 4260','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4111.6)
+,(9026,'gpu',19,'Y-Solowarm 6573','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',8245.19)
+,(9027,'pow',5,'Fintone 5356','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.35)
+,(9028,'gpu',20,'Lotstring 6129','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9987.03)
+,(9029,'mtb',20,'Tampflex 3147','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7220.33)
+,(9030,'mtb',8,'Voyatouch 7211','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',388.94)
+,(9031,'cpu',16,'Gembucket 8665','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',3529.39)
+,(9032,'kul',18,'Prodder 1439','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5196.88)
+,(9033,'mtb',11,'Temp 8621','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',1098.43)
+,(9034,'cas',17,'Y-Solowarm 6329','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',1321.62)
+,(9035,'sto',11,'Y-Solowarm 8972','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3386.99)
+,(9036,'gpu',7,'Namfix 1536','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',1902.44)
+,(9037,'mem',6,'Home Ing 7588','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7732.53)
+,(9038,'mtb',13,'Tresom 8517','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7645.24)
+,(9039,'sto',8,'Voyatouch 5112','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2031.49)
+,(9040,'cpu',5,'Tampflex 8482','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',5964.29)
+,(9041,'cas',15,'Overhold 4279','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9416.87)
+,(9042,'cas',3,'Vagram 4650','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',369.29)
+,(9043,'mtb',18,'Zathin 8744','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4298.71)
+,(9044,'cas',12,'Voyatouch 1722','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9705.16)
+,(9045,'mem',3,'Hatity 8005','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8361.37)
+,(9046,'cpu',18,'Alpha 7181','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9107.21)
+,(9047,'cpu',7,'Domainer 6052','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',6675.83)
+,(9048,'cas',10,'Namfix 5699','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5432.4)
+,(9049,'sto',12,'Fintone 3193','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2059.24)
+,(9050,'gpu',16,'Latlux 7642','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3942.17)
+,(9051,'sto',8,'Asoka 4027','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8754.43)
+,(9052,'sto',6,'Transcof 5107','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',7468.1)
+,(9053,'cas',14,'Zoolab 6989','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7597.91)
+,(9054,'kul',20,'Alphazap 1405','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8815.04)
+,(9055,'pow',20,'Alpha 8331','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7137.04)
+,(9056,'sto',10,'Regrant 4983','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9340.05)
+,(9057,'mem',12,'Toughjoyfax 6657','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',5701.61)
+,(9058,'mem',18,'Prodder 3041','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',8208.8)
+,(9059,'pow',19,'Span 8945','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4744.23)
+,(9060,'mtb',4,'Holdlamis 2116','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',9713.18)
+,(9061,'cpu',6,'Lotstring 4693','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',822.52)
+,(9062,'mem',13,'Tampflex 2238','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',7096.63)
+,(9063,'mtb',17,'Tin 5756','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',921.53)
+,(9064,'cpu',20,'Pannier 8361','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',6121.08)
+,(9065,'cpu',13,'Duobam 3820','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare arcu odio ut sem.',9676.99)
+,(9066,'gpu',16,'Zamit 2870','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7604.0)
+,(9067,'sto',2,'It 8939','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2123.22)
+,(9068,'cas',6,'Konklux 4378','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',4297.83)
+,(9069,'gpu',5,'Holdlamis 8819','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',1037.36)
+,(9070,'cas',10,'Lotstring 6228','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',7287.35)
+,(9071,'mtb',17,'Namfix 2937','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9138.8)
+,(9072,'pow',16,'Sub-Ex 5011','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5883.59)
+,(9073,'cpu',9,'Sonsing 8753','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',6080.4)
+,(9074,'gpu',15,'Tres-Zap 6177','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',9224.29)
+,(9075,'pow',15,'Home Ing 4225','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2707.29)
+,(9076,'pow',12,'Lotlux 1640','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',7865.85)
+,(9077,'kul',18,'Fintone 5922','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',492.87)
+,(9078,'pow',20,'Redhold 1222','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',5937.0)
+,(9079,'sto',5,'Greenlam 6318','Sapien et ligula ullamcorper malesuada. Cras semper auctor neque vitae tempus. Pharetra pharetra massa massa ultricies. Molestie ac feugiat sed lectus.',3602.55)
+,(9080,'gpu',2,'Prodder 1449','Leo a diam sollicitudin tempor id. Felis donec et odio pellentesque. Cursus risus at ultrices mi tempus imperdiet nulla. Eu facilisis sed odio morbi.',5061.63);
