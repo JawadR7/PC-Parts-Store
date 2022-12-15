@@ -1136,7 +1136,7 @@ INSERT INTO power_supply(item_id,item_cat,manufacturer,model,part_no,type,effici
 -- SCENARIO: a vendor wants to list a new storage device for sale on the store.
 
 -- first, the vendor will list the part on the store by creating an item entity in the item table
-INSERT INTO pc_parts_store_3.item(item_id, item_cat, vendor_id, item_name, item_desc, item_price)
+INSERT INTO item(item_id, item_cat, vendor_id, item_name, item_desc, item_price)
 VALUES (9181,'sto',12,'Megaplate 4451','Sit amet tellus cras adipiscing enim. Morbi tincidunt augue interdum velit euismod. Mattis pellentesque id nibh tortor id aliquet lectus proin.',2406.99);
 
 -- then, the vendor will provide the data for the item by inserting it in its corresponding part table. Constraints will ensure that the item is placed in the correct table.
@@ -1153,11 +1153,11 @@ UPDATE item SET item_price = 3000 WHERE item_id = 9013;
 -------------------------------------
 
 -- view amount of items in order 2 and what the grand total is
-SELECT order_id AS 'Order ID', COUNT(line_id) AS 'Number of Items', SUM(price) AS 'Grand Total' FROM pc_parts_store.order_line WHERE order_id = 2;
+SELECT order_id AS 'Order ID', COUNT(line_id) AS 'Number of Items', SUM(price) AS 'Grand Total' FROM order_line WHERE order_id = 2;
 
 
 -- view how many orders completed in 2021
-SELECT COUNT(h.order_id) AS 'Completed Orders in 2021' FROM pc_parts_store.order_history AS h, pc_parts_store.order_status AS s
+SELECT COUNT(h.order_id) AS 'Completed Orders in 2021' FROM order_history AS h, order_status AS s
 WHERE h.status_id = s.status_id AND s.status_value = "Completed" AND h.status_date LIKE "2021%";
 
 
