@@ -11,8 +11,8 @@
 -- Create the Database, Entities, and Views --
 ----------------------------------------------
 
-CREATE DATABASE IF NOT EXISTS pc_parts_store_3;
-USE pc_parts_store_3;
+CREATE DATABASE IF NOT EXISTS pc_parts_store;
+USE pc_parts_store;
 
 CREATE TABLE country (
   country_id INT PRIMARY KEY,
